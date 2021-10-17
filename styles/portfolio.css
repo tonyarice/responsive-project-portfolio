@@ -78,19 +78,17 @@ p {
 }
 
 .product {
-    background-color: var(--background-color);
-    
-   
+    background-color: var(--background-color);  
 }
 
 .product-description {
     padding-top: 120px;
 }
 
-img .product {
+/* img .product {
     display: block;
    margin: 0 auto;
-}
+} */
 
 @media (max-width: 960px) {
     .hero {
