@@ -16,12 +16,17 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
 }
 
+h2 {
+    font-size: 64px;
+}
 
 p {
     color: black;
     font-weight: normal; 
+    font-size: 16px;
 
 }
+
 
 .hero {
     background-color: var(--background-color);
@@ -55,6 +60,41 @@ p {
     font-size: 18px;
     line-height: 27px;
     padding: 15px 30px;
+}
+
+.btn-branding-outline {
+    color: var(--branding-color);
+    border-radius: 4px;
+    border: 1px solid var(--branding-color);
+    font-size: 18px;
+    line-height: 27px;
+    padding: 15px 30px;
+}
+
+.product-description {
+    padding: 120px 60px;
+}
+
+@media (max-width: 960px) {
+    .hero {
+        padding: 80px 10px;
+    }
+
+    .hero h1 {
+        font-size: 60px;
+        line-height: 1.5;
+    }
+
+    h2 {
+        font-size: 44px;
+        line-height: 1.5;
+
+    }
+
+    .product-description {
+    padding: 0;
+    text-align: center;
+    }
 }
 
 .fa-cat {
