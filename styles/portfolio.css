@@ -71,8 +71,19 @@ p {
     padding: 15px 30px;
 }
 
+.product {
+    background-color: var(--background-color);
+    
+   
+}
+
 .product-description {
-    padding: 120px 60px;
+    padding-top: 120px;
+}
+
+img .product {
+    display: block;
+   margin: 0 auto;
 }
 
 @media (max-width: 960px) {
