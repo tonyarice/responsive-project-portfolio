@@ -30,10 +30,9 @@ p {
 }
 
 .featured {
-    /* color: var(--branding-color); */
+    color: var(--primary-color);
     font-size: 20px;
-    
-    
+     
 }
 
 .hero {
@@ -92,7 +91,7 @@ p {
 
 /* img .product {
     display: block;
-   margin: 0 auto;
+   margin: 0 auto;  
 } */
 
 @media (max-width: 960px) {
