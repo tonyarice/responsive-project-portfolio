@@ -89,6 +89,10 @@ p {
     padding-top: 120px;
 }
 
+.product-description h3 {
+    font-style: italic;
+}
+
 /* img .product {
     display: block;
    margin: 0 auto;  
