@@ -184,7 +184,7 @@ p {
     .inquiry {
         flex-direction: column;
         display: block;
-        margin: 0 auto;
+        margin: 25px auto;
     }
 
     .inquiry h2 {
