@@ -5,12 +5,14 @@
     --background-color: #e7717D;
     --heading-font-family: "Playfair Display", serif;
     --default-font-family: "Poppins", sans-serif;
+    --logo-font-family: "Pinyon Script", cursive;
 }
 
 
 body {
     font-family: var(--default-font-family);
 }
+
 
 h1, h2, h3, h4, h5, h6 {
     color: var(--primary-color);
@@ -152,9 +154,53 @@ p {
     margin: 30px;
 }
 
-
 .about-pic {
     border-radius: 15px; 
+}
+
+.logo {
+    font-family: var(--logo-font-family);
+    font-size: 26px;
+    /* font-weight: 600; */
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.logo:hover {
+    color: var(--background-color);
+}
+
+nav {
+    padding: 20px 0;
+    
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    
+}
+
+nav li {
+    display: inline;
+    list-style: none;
+    line-height: 42px;
+    margin-left: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--primary-color);
+    transition: all 100ms ease-in-out;
+}
+
+nav li.active a {
+    color: var(--branding-color);
+    
+}
+
+nav a:hover {
+    color: var(--background-color);
 }
 
 
