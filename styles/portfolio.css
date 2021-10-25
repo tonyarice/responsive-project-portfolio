@@ -170,8 +170,9 @@ p {
     color: var(--background-color);
 }
 
+
 nav {
-    padding: 20px 0;
+    padding: 15px 0;
     
 }
 
@@ -195,14 +196,12 @@ nav a {
 }
 
 nav li.active a {
-    color: var(--branding-color);
-    
+    color: var(--background-color);   
 }
 
 nav a:hover {
-    color: var(--background-color);
+    color: var(--branding-color);
 }
-
 
 @media (max-width: 900px) {
     .hero {
@@ -211,13 +210,26 @@ nav a:hover {
 
     .hero h1 {
         font-size: 60px;
-        line-height: 1.5;
+        line-height: 1.25;
+    }
+
+    .hero h2 {
+        line-height: 1.25;
     }
 
     h2 {
         font-size: 44px;
         line-height: 1.5;
     }
+
+    .logo {
+       display: none;
+    }
+
+    nav a {
+        font-size: 14px;
+    }
+
 
     .about-section {
         text-align: center;
@@ -264,6 +276,9 @@ nav a:hover {
     } */
 
     }
+
+    /* IF using a logo image (img src="images/logo.png" class="logo d-none d-md-block" alt="") class="logo d-block d-md-none" alt="") and want to change to different one for mobile device:
+    create new logo (img src="images/logo-small.jpg" class="logo d-block d-md-none" alt="") and change to max-height: 40px in @media */
 
 
 
