@@ -225,8 +225,7 @@ a:hover {
 footer .email-link {
     text-decoration: none;
     color: var(--primary-color);
-    font-size: 24px;
-    
+    font-size: 24px;    
 }
 
 footer .email-link:hover {
@@ -251,8 +250,7 @@ footer .social-links a:hover {
 
 footer #credit {
     margin-top: 20px;
-    padding-left: 75px; 
-    
+    padding-left: 75px;  
 }
 
 footer a.hyperlink-line {
