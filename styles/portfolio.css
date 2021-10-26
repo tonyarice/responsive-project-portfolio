@@ -251,9 +251,12 @@ footer .social-links a:hover {
 
 footer #credit {
     margin-top: 20px;
-    padding-left: 75px;
+    padding-left: 75px; 
     
-    
+}
+
+footer a.hyperlink-line {
+    text-decoration: none;
 }
 
 
