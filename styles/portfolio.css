@@ -117,7 +117,7 @@ a:hover {
 .hero {
     background-color: var(--background-color);
     text-align: center;
-    padding: 160px 20px;
+    padding: 100px 20px;
 }
 
 .hero h1 {
@@ -192,7 +192,7 @@ a:hover {
 } */
 
 .content-container{
-    padding: 130px 20px 40px;
+    padding: 55px 20px 40px;
 }
 
 .content h1 {
@@ -218,6 +218,7 @@ a:hover {
 
 .about-pic {
     border-radius: 15px; 
+    margin-top: 40px;
 }
 
 
