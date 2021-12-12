@@ -2,7 +2,8 @@
     --branding-color: #AFD275;
     --primary-color: #7E685A;
     --secondary-color: #fdf2e7;
-    --background-color: #A33327;
+    --background-color: #82271f;
+    /* --background-color: #A33327; */
     --heading-font-family: "Playfair Display", serif;
     --default-font-family: "Poppins", sans-serif;
     --logo-font-family: "Pinyon Script", cursive;
@@ -126,6 +127,15 @@ a:hover {
      
 }
 
+.page-name {
+    font-size: 125px;
+    font-family: var(--logo-font-family);
+    font-weight: bold;
+    color: gray;
+    opacity: 0.1;
+    
+}
+
 .hero {
     background-color: var(--background-color);
     /* text-align: center; */
@@ -135,7 +145,7 @@ a:hover {
 
 .hero .author-name {
     text-align: left;
-    margin-top: 125px;
+    margin-top: 85px;
 }
 
 .hero h1 {
@@ -168,6 +178,12 @@ a:hover {
     color: var(--secondary-color);
 }
 
+.hero .about-pic {
+        /* border: 1px solid #8E3C14; */
+        border-radius: 15px; 
+        margin-top: 0;
+}
+
 
 .btn-branding {
     background: var(--branding-color);
@@ -176,7 +192,7 @@ a:hover {
     border: 1px solid var(--primary-color);
     font-size: 18px;
     line-height: 27px;
-    padding: 15px 30px;
+    padding: 10px 20px;
 }
 
 .btn-branding-outline {
@@ -185,7 +201,7 @@ a:hover {
     border: 1px solid var(--branding-color);
     font-size: 18px;
     line-height: 27px;
-    padding: 15px 30px;
+    padding: 10px 20px;
 }
 
 .btn-branding-outline:hover {
@@ -193,12 +209,16 @@ a:hover {
     border: 1px solid var(--primary-color);
 }
 
+.product-container {
+    margin: 0 25%;
+}
+
 .product {
     background-color: var(--secondary-color); 
 }
 
 .product-description {
-    padding-top: 120px;
+    padding-top: 45px;
 }
 
 .product-description h3 {
@@ -219,7 +239,7 @@ a:hover {
 } */
 
 .content-container{
-    padding: 55px 20px 40px;
+    padding: 0 20px 40px;
 }
 
 .content h1 {
@@ -242,11 +262,10 @@ a:hover {
     margin: 30px;
 }
 
-
 .about-pic {
-    /* border: 1px solid #8E3C14; */
+    border: 1px solid #8E3C14;
     border-radius: 15px; 
-    /* margin-top: 40px; */
+    margin-top: 30px;
 }
 
 
