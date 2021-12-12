@@ -259,13 +259,6 @@ footer a.hyperlink-line {
     text-decoration: none;
 }
 
-footer .photo-credit {
-    font-style: italic;
-    font-size: small;
-}
-
-
-
 
 @media (max-width: 900px) {
     .hero {
@@ -320,10 +313,10 @@ footer .photo-credit {
     }
 
     footer #credit {
-        text-align: center;  
-    }
+        text-align: center;
+        
 
-    
+    }
 
     #topButton {
         display: none;
