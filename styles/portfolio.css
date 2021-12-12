@@ -2,15 +2,25 @@
     --branding-color: #AFD275;
     --primary-color: #7E685A;
     --secondary-color: #fdf2e7;
-    --background-color: #e7717D;
+    --background-color: #A33327;
     --heading-font-family: "Playfair Display", serif;
     --default-font-family: "Poppins", sans-serif;
     --logo-font-family: "Pinyon Script", cursive;
+    /* --background-color: #e7717D; */
 }
 
 
 body {
-    font-family: var(--default-font-family);
+    font-family: 'Pinyon Script', cursive;
+font-family: 'Playfair Display', serif;
+font-family: 'Source Sans 3', sans-serif;
+
+    /* font-family: var(--default-font-family); */
+}
+
+.navbar-container nav {
+    padding: 10px;
+    margin: 0px;
 }
 
 
@@ -21,7 +31,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-size: 72px;
+    font-size: 125px;
+    font-family: var(--logo-font-family);
+
 }
 
 h2 {
@@ -116,23 +128,38 @@ a:hover {
 
 .hero {
     background-color: var(--background-color);
-    text-align: center;
-    padding: 100px 20px;
+    /* text-align: center; */
+    padding: 10px;
+    margin-right: 5px;
+}
+
+.hero .author-name {
+    text-align: left;
+    margin-top: 125px;
 }
 
 .hero h1 {
-    font-size: 96px;
+    font-size: 120px;
+    font-weight: lighter;
     color: var(--secondary-color);
     
 }
 
-.hero h2 {
-    font-family: "Poppins", sans-serif;
+.hero h3 {
+    /* font-family: "Poppins", sans-serif; */
     font-weight: normal;
-    font-size: 24px;
-    line-height: 2;
+    font-size: 22px;
+    /* line-height: 2; */
     color: var(--secondary-color);
 }
+
+/* .hero h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 2;
+    color: var(--secondary-color);
+} */
 
 .hero p {
     font-size: 36px;
@@ -217,9 +244,9 @@ a:hover {
 
 
 .about-pic {
-    border: 1px solid #8E3C14;
+    /* border: 1px solid #8E3C14; */
     border-radius: 15px; 
-    margin-top: 40px;
+    /* margin-top: 40px; */
 }
 
 
