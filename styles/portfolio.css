@@ -118,7 +118,7 @@ a:hover {
     font-size: 18px;
     border: none;
     outline: none;
-    background-color: var(--branding-color);
+    background-color: var(--background-color);
     color: white;
     cursor: pointer;
     padding: 15px;
@@ -126,7 +126,9 @@ a:hover {
 }
 
 #topButton:hover {
-    background-color: var(--background-color);
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    outline: solid 1px rgb(138, 68, 68);
 }
 
 .hero {
@@ -294,6 +296,7 @@ a:hover {
 .product-img {
     margin-top: 0px;
 }
+
 
 .contact h2 {
     font-family: var(--heading-font-family);
