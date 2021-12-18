@@ -364,7 +364,7 @@ footer #credit {
 footer a.hyperlink-line {
     text-decoration: none;
     /* color: rgb(201, 201, 58); */
-    color: rgb(138, 68, 68);
+    color: blueviolet;
     font-weight: bold;
 }
 
