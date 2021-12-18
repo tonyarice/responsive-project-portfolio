@@ -295,6 +295,10 @@ a:hover {
     margin-top: 0px;
 }
 
+.contact h2 {
+    font-family: var(--heading-font-family);
+}
+
 
 
 
@@ -319,12 +323,14 @@ a:hover {
 
 
 
-
-
+footer {
+    background-color: #160203;
+    color: var(--secondary-color);
+}
 
 footer .email-link {
     text-decoration: none;
-    color: var(--primary-color);
+    color: var(--secondary-color);
     font-size: 24px;    
 }
 
@@ -355,6 +361,14 @@ footer #credit {
 
 footer a.hyperlink-line {
     text-decoration: none;
+    color: rgb(201, 201, 58);
+    font-weight: bold;
+}
+
+
+footer a.hyperlink-line:hover {
+    color: var(--secondary-color);
+    font-weight: lighter;
 }
 
 footer .photo-credit {
