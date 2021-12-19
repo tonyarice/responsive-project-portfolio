@@ -1,5 +1,5 @@
 :root {
-    --branding-color: #AFD275;
+    --branding-color: #2c010f;
     /* --primary-color: #7E685A; */
     --primary-color: #5D001E;
     --secondary-color: #fdf2e7;
@@ -98,7 +98,7 @@ nav li.active a {
 }
 
 nav a:hover {
-    color: var(--branding-color);
+    color: goldenrod;
 }
 
 a {
@@ -106,7 +106,7 @@ a {
 }
 
 a:hover {
-    color: var(--branding-color);
+    color: #ac4f52;
 }
 
 #topButton {
@@ -190,13 +190,18 @@ a:hover {
 
 
 .btn-branding {
-    background: var(--branding-color);
-    color: white;
+    color: var(--branding-color);
+    background-color: white;
     border-radius: 4px;
     border: 1px solid var(--primary-color);
     font-size: 18px;
     line-height: 27px;
     padding: 10px 20px;
+}
+
+.btn-branding:hover {
+    background-color: var(--branding-color);
+    color: white;
 }
 
 .btn-branding-outline {
@@ -209,8 +214,8 @@ a:hover {
 }
 
 .btn-branding-outline:hover {
-    color: var(--primary-color);
-    border: 1px solid var(--primary-color);
+    color: #ca5089;
+    border: 1px solid #ca5089;
 }
 
 /* .featured-product {
