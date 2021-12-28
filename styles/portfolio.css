@@ -39,8 +39,14 @@ h2 {
 h3 {
     font-size: 27px;
     font-family: var(--heading-font-family);
-    line-height: 1;
     color: var(--primary-color);
+}
+
+h4 {
+    font-size: 20px;
+    font-family: var(--heading-font-family);
+    color: var(--primary-color);
+    text-align: center;
 }
 
 p {
@@ -351,6 +357,10 @@ hr {
     color: rgb(156, 156, 156);
 }
 
+.eden-about a {
+    text-decoration: none;
+}
+
 
 blockquote {
     margin: 0;
@@ -408,9 +418,8 @@ footer .email-link:hover {
 
 footer .social-links a {
     margin: 0 20px;
-    /* color: var(--background-color); */
-    color: black;
-    background: var(--secondary-color);
+    color: var(--background-color);
+    background-color: var(--secondary-color);
     padding: 8px 14px;
     font-size: 18px;
     border-radius: 50%;
@@ -418,8 +427,8 @@ footer .social-links a {
 }
 
 footer .social-links a:hover {
-    color: var(--branding-color);
-    background: white;
+    background-color: var(--branding-color);
+    color: white;
     border: 1px solid var(--branding-color);
 };
 
