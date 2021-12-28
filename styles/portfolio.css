@@ -340,6 +340,32 @@ a:hover {
     font-family: var(--heading-font-family);
 }
 
+.boutique-about h3 {
+    text-align: center;
+    display: block;
+    margin: 0;
+    line-height: 1.25;
+}
+
+hr {
+    color: rgb(156, 156, 156);
+}
+
+
+blockquote {
+    margin: 0;
+}
+
+blockquote p {
+    text-align: center;
+    padding: 25px;
+    background: rgb(214, 193, 193);
+    line-height: 2;
+    border-radius: 5px;
+    color: black;
+}
+
+
 
 
 
