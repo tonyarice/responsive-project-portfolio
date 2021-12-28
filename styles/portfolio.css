@@ -73,14 +73,41 @@ nav {
     
 }
 
+.nav-link {
+    padding: 0;
+    color: var(--primary-color);
+}
+
+.nav-link:focus {
+    color: black;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    padding: 0;
+    color: black;
+    font-weight: bold;
+}
+
+.dropdown-menu {
+    background: black;
+    padding: 0;
+}
+
+.dropdown-item {
+    color: white;
+    background: black;
+}
+
+
+
 nav ul {
     padding: 0;
-    margin: 0;
-    
+    margin: 0; 
 }
 
 nav li {
-    display: inline;
+    display: inline-block;
     list-style: none;
     line-height: 42px;
     margin-left: 15px;
@@ -108,6 +135,8 @@ a {
 a:hover {
     color: #ac4f52;
 }
+
+
 
 #topButton {
     display: none;
