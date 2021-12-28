@@ -89,14 +89,18 @@ nav {
     font-weight: bold;
 }
 
+.nav-link:focus .nav-link:hover {
+    color: black;
+}
+
 .dropdown-menu {
     background: black;
     padding: 0;
 }
 
 .dropdown-item {
+    background-color: var(--branding-color);
     color: white;
-    background: black;
 }
 
 
@@ -219,8 +223,8 @@ a:hover {
 
 
 .btn-branding {
-    color: var(--branding-color);
-    background-color: white;
+    background-color: var(--branding-color);
+    color: white;
     border-radius: 4px;
     border: 1px solid var(--primary-color);
     font-size: 18px;
@@ -229,8 +233,8 @@ a:hover {
 }
 
 .btn-branding:hover {
-    background-color: var(--branding-color);
-    color: white;
+    color: var(--branding-color);
+    background-color: white;
 }
 
 .btn-branding-outline {
