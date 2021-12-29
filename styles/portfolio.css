@@ -100,7 +100,7 @@ nav {
 }
 
 .dropdown-menu {
-    background: black;
+    background-color: var(--branding-color);
     padding: 0;
 }
 
@@ -108,7 +108,6 @@ nav {
     background-color: var(--branding-color);
     color: white;
 }
-
 
 
 nav ul {
