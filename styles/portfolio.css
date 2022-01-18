@@ -374,6 +374,10 @@ blockquote p {
     color: black;
 }
 
+loc {
+    color: red;
+}
+
 
 
 
@@ -457,7 +461,7 @@ footer .photo-credit {
 
 @media (max-width: 900px) {
     .hero {
-        padding: 80px 10px;
+        padding: 5px 10px;
     }
 
     .hero h1 {
@@ -469,9 +473,21 @@ footer .photo-credit {
         line-height: 1.25;
     }
 
+    .hero .about-pic {
+        display: block;
+        height: 225px;
+        width: 335px;
+        margin: 0; 
+    }
+
+    .featured-container {
+        margin: 0 10%;
+    }
+
     h2 {
         font-size: 44px;
         line-height: 1.5;
+    
     }
 
     .logo {
@@ -494,13 +510,19 @@ footer .photo-credit {
 
    .about-pic {
         display: block;
-        margin: 0 auto; 
+        height: 325px;
+        width: 335px;
+        margin: 0; 
     }
 
 
     .book-info {
         padding: 0;
         text-align: center;
+    }
+
+    .books-container {
+        margin: 0 10%;
     }
 
     footer .email-link {
