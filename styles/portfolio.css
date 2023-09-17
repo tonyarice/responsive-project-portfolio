@@ -1,11 +1,11 @@
 :root {
-    --branding-color: #AFD275;
+    --branding-color: #bfa084;
     --primary-color: #7E685A;
     --secondary-color: #fdf2e7;
-    --background-color: #e7717D;
+    --background-color: #0ABAB5;
     --heading-font-family: "Playfair Display", serif;
     --default-font-family: "Poppins", sans-serif;
-    --logo-font-family: "Pinyon Script", cursive;
+    --logo-font-family: "Playfair Display";
 }
 
 
@@ -36,10 +36,11 @@ p {
 
 .logo {
     font-family: var(--logo-font-family);
-    font-size: 26px;
+    font-size: 20px;
     /* font-weight: 600; */
     color: var(--primary-color);
     text-decoration: none;
+    font-style: italic;
 }
 
 .logo:hover {
